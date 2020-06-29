@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.entry-board {
+    background: #212121;
+    height: 40px;
+    line-height: 40px;
+}
+
+.entry-board li {
+    margin-right: 1.35px;
+}
+
+.entry-board ul li a, a {
+    color: #b0b0b0;
+    font-size: 0.625rem;
+}
+
+.note .col-sm-4 {
+    padding: 0 6px 0 6px;
+}
+
+.note img:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.star-products .col-md-6 {
+    padding: 2px !important;
+}
+
+.star-products .col-md-12 {
+    padding-top: 4px !important;
+}
+
+.videos .modal-content {
+    border: none;
+    color: white;
+    background: transparent;
+}
+
+.videos .modal-header {
+    border: none;
+}
+
+.videos .col-md-4 {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+footer {
+    background-color: #212121;
+}
+
+header {
+    position: relative;
+    z-index: 0;
+}
+
+#carouselExampleIndicators {
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    z-index: 999;
+    width: 100vw;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav ul {
+    min-width: max-content;
+    display: flex;
+}
+
+.nav:hover {
+    background:white;
+    
+}
+
+.nav ul li:hover{
+    color: orange;
+}
+
+.nav ul li {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: black;
+}
+
+.dropdown  {
+    display: none !important;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    z-index: 0;
+    background: white;
+    width: 100vw;
+    padding: 2rem 8rem;
+}
+
+.nav ul li:hover .dropdown{
+    display: flex !important;
+}
+
+.dropdown img {
+    width: 10rem;
+}
